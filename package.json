@@ -1,0 +1,16 @@
+{
+  "name": "push-notification-server",
+  "version": "1.0.0",
+  "description": "Server to send push notifications to subscribers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "web-push": "^3.4.4"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
