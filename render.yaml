@@ -2,8 +2,7 @@ services:
   - type: web
     name: push-notification-server
     env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
     plan: free
-    buildCommand: npm install
-    startCommand: npm start
     branch: main
-    disk: 1GB
